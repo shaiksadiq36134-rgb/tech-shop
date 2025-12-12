@@ -289,7 +289,7 @@ body {
  align-items: center;
  min-height: 70vh;
  margin-left: 32rem;
- /* move UP */
+ 
  /* transform: translateY(40px); move DOWN */
  /* transform: translateX(30px); move RIGHT */
 }
