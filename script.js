@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
         else cart.splice(idx, 1);
       }
       if(e.target.classList.contains("plus-btn")) cart[idx].qty++;
-      if(e.target.closest(".remove-btn")) cart.splice(idx, 1);
+      if(e.target.closest(".remove-btn")) cart.splice(idx, 1);  
 
       renderCart();
     });
